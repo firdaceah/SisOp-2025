@@ -1,5 +1,10 @@
-# LATIHAN SISTEM BILANGAN / FIRDA RAHAYU
+# SISTEM BILANGAN
 
+Nama: Firda Rahayu
+NRP: 3124521002
+Kelas: 1 TI A 
+
+## LATIHAN
 1. a. Bilangan biner adalah bilangan yang berbasis dua 
 
 2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
