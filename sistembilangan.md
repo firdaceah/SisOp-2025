@@ -1,7 +1,9 @@
 # SISTEM BILANGAN
 
 Nama: Firda Rahayu
+
 NRP: 3124521002
+
 Kelas: 1 TI A 
 
 ## LATIHAN
@@ -320,7 +322,7 @@ Kelas: 1 TI A
 
 21. Dengan Keyboard standard ASCII, pada layar monitor nampak tulisan sebagai berikut: PRINT X
 
-Nyatakan keluaran pada keyboard tersebut.
+    Nyatakan keluaran pada keyboard tersebut.
 
     | Karakter    | ASCII(Decimal) | ASCII (Biner) |
     |-------------|----------------|---------------|
