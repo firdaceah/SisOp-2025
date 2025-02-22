@@ -40,6 +40,7 @@
     Cara: Kelompokkan digit biner menjadi tiga-tiga dari kanan ke kiri, lalu konversikan setiap kelompok ke oktal.
 
     | 101 | 011 | 111 | 111 |
+    |-----|-----|-----|-----|
     |  5  |  3  |  7  |  1  |
 
     Jawaban: 5371₈
