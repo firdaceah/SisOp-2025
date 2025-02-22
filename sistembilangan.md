@@ -219,7 +219,7 @@ Kelas: 1 TI A
     1 . 2^-7 = 0,0078125
 
     0 . 2^-8 = 0
-    
+
     1 . 2^-9 = 0,001953125
 
     Jumlah: 0.24609375
@@ -227,6 +227,7 @@ Kelas: 1 TI A
     Jawaban: 163,245
 
 12. Rubahlah bilangan biner di bawah ini ke dalam bentuk BCD
+
     a. 10100110000111₂
 
     | 0010 | 1001 | 1000 | 0111 |
@@ -236,6 +237,7 @@ Kelas: 1 TI A
     Jawaban: 2987
 
 13. Rubahlah bentuk BCD di bawah ini ke dalam bilangan biner
+
     a. 1987
 
     | 1 |  9   |  8   |  7   |
@@ -245,6 +247,7 @@ Kelas: 1 TI A
     Jawaban: 1 1001 1000 0111
 
 14. Rubahlah bilangan biner di bawah ini ke dalam BCO
+
     a. 11111101001₂
 
     | 011 | 111 | 101 | 001 |
@@ -254,6 +257,7 @@ Kelas: 1 TI A
     Jawaban: 3751
 
 15. Rubahlah bilangan biner di bawah ini ke dalam BCH
+
     a. 1101111100101110₂
 
     | 1101 | 1111 | 0010 | 1110 |
@@ -263,6 +267,7 @@ Kelas: 1 TI A
     Jawaban: DF2E
     
 16. Rubahlah Bentuk BCH di bawah ini ke dalam bilangan heksadesimal
+
     a. F0DE
 
     |  F   |  0   |  D   |  E   |
@@ -272,6 +277,7 @@ Kelas: 1 TI A
     Jawaban: 1111 0000 1101 1110
 
 17. Nyatakan positip atau negatip bilangan biner di bawah ini
+
     a. 01111111
 
     | (0×2^7)+(1×2^6)+(1×2^5)+(1×2^4)+(1×2^3)+(1×2^2)+(1×2^1)+(1×2^0) |
@@ -282,6 +288,7 @@ Kelas: 1 TI A
     Jawaban: Positip
 
 18. Nyatakan bilangan biner negatip di bawah ini ke dalam bilangan desimal
+
     a. 10001000
 
     | 10001000 → 01110111     |
@@ -292,20 +299,27 @@ Kelas: 1 TI A
     Jawaban: -120
 
 19. Nyatakan ASCII Code di bawah ini dalam bentuk karakter
+
     a. 41₁₆
 
     4 adalah b7, b6, b5 = 100
+
     1 adalah b4, b3, b2, b1 = 0001
+
     Karakter yang sesuai adalah A
 
 20. Nyatakan Karakter di bawah ini dalam ASCII Code
+
     a. a
 
     b7, b6, b5 = 110 = 6
+
     b4, b3, b2, b1 = 0001 = 1
+
     ASCII Code: 61₁₆
 
 21. Dengan Keyboard standard ASCII, pada layar monitor nampak tulisan sebagai berikut: PRINT X
+
 Nyatakan keluaran pada keyboard tersebut.
 
     | Karakter    | ASCII(Decimal) | ASCII (Biner) |
