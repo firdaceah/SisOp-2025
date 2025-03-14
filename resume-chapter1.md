@@ -1,10 +1,25 @@
-# Resume Chapter 1: 1.34 - 1.41
+# Resume Chapter 1: 1.34 - 1.40
 
 Name: Firda Rahayu
 
 NRP: 3124521002
 
 Class: 1 TI A
+
+## Peralihan dari Mode Pengguna ke Mode Kernel
+
+- Timer digunakan untuk mencegah infinite loop atau proses yang memonopoli sumber daya.
+
+- Timer diatur untuk menginterupsi komputer setelah periode waktu tertentu.
+
+- Sebuah counter disimpan dan dikurangi oleh clock fisik.
+
+- Sistem operasi mengatur counter (instruksi privileged).
+
+- Ketika counter mencapai nol, sebuah interrupt dihasilkan.
+
+- Timer diatur sebelum penjadwalan proses untuk mendapatkan kembali kontrol atau menghentikan program yang melebihi waktu yang dialokasikan.
+
 
 ## Manajemen Proses
 
@@ -106,9 +121,4 @@ Sistem operasi bertanggung jawab atas aktivitas-aktivitas berikut dalam manajeme
 - Cache lebih kecil dari penyimpanan yang di-cache.
 
 - Manajemen cache adalah masalah desain yang penting, termasuk ukuran cache dan kebijakan penggantian.
-
-
-## Karakteristik Berbagai Jenis Penyimpanan
-
-- Pergerakan antar tingkatan hierarki penyimpanan dapat bersifat eksplisit atau implisit.
 
