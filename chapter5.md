@@ -33,8 +33,10 @@ a. Gantt Charts and Execution Order:
 
 - First-Come, First-Served (FCFS): Following the arrival order (P1,P2,P3,P4,P5).
 
-|----P1----|---P2---|--P3--|-------P4-------|----P5----|
-0         5        8      9              16        20
+|   P1   |  P2  | P3 |      P4    |   P5   |
+|--------|------|----|------------|--------|
+0    5    8    9    16   20
+
 
 - Shortest-Job-First (SJF) (Non-Preemptive): Processes with the shortest burst time are executed first (P3,P2,P5,P1,P4).
 
