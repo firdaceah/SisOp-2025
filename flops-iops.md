@@ -1,8 +1,8 @@
 # FLOPS-IOPS - Tugas Pertemuan 5 (18 Maret 2025)
 
 #### NAMA: Firda Rahayu
-#### NRP: 3245211002
-#### KELAS: IT A
+#### NRP: 3124521002
+#### KELAS: 1 IT A
 
 
 ---
