@@ -4,7 +4,7 @@ NAMA : Firda Rahayu
 
 NRP : 3124521002
 
-KELAS : IT A
+KELAS : 1 IT A
 
 ## 1.SJF without arrival time (non-preemptive)
 
