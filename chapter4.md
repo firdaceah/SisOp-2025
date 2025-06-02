@@ -2,7 +2,7 @@
 
 # **Firda Rahayu** 
 # **NRP: 3124521002** 
-# **KELAS: TI A**
+# **KELAS: 1 TI A**
 ------
 
 ## 1. Jelaskan dalam 2 paragraph disertai dengan gambar tentang konsep single thread dan multithread!
