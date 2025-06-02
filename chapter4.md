@@ -1,3 +1,5 @@
+# Chapter 4 - Tugas Pertemuan 8 (15 April 2025)
+
 # **Firda Rahayu** 
 # **NRP: 3124521002** 
 # **KELAS: TI A**
@@ -5,7 +7,7 @@
 
 ## 1. Jelaskan dalam 2 paragraph disertai dengan gambar tentang konsep single thread dan multithread!
 
-![FotoSingle&Multi Thread](single&multi.jpg)
+![FotoSingle&Multi Thread](img/single&multi.jpg)
 
 ### Single Thread
 Single-threading adalah konsep pemrograman di mana sebuah proses hanya memiliki satu alur eksekusi (thread) yang berjalan secara berurutan. Dalam sistem ini, setiap tugas harus diselesaikan sebelum tugas berikutnya dapat dimulai, sehingga dapat menyebabkan keterlambatan jika ada operasi yang membutuhkan waktu lama, seperti pemrosesan data besar atau komunikasi jaringan. Single-threading lebih sederhana dalam implementasi dan lebih mudah untuk dikelola karena tidak ada risiko kondisi balapan atau sinkronisasi antar thread. Namun, dalam aplikasi yang membutuhkan respons cepat atau pemrosesan paralel, pendekatan ini bisa menjadi kurang efisien.
