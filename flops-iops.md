@@ -1,7 +1,4 @@
-
-
-# FLOPS-IOPS
-
+# FLOPS-IOPS - Tugas Pertemuan 5 (18 Maret 2025)
 
 #### NAMA: Firda Rahayu
 #### NRP: 3245211002
@@ -100,7 +97,7 @@ Pada Loop tak terbatas di fungsi `calculateIOPS32` membuat thread jalan terus ta
 ```
 $ ./iops32 $(nproc)
 ```
-![iops32](iops32.png)
+![iops32](img/iops32.png)
 
 Kode `./iops32 $(nproc)` digunakan untuk menjalankan benchmark operasi integer 64-bit dengan jumlah core sesuai yang tersedia di sistem. Penggunaan `$(nproc)` memastikan semua core digunakan tanpa harus menentukan jumlahnya secara manual. Hasilnya menunjukkan throughput per thread serta total kinerja CPU, yang bisa digunakan untuk menganalisis efisiensi multi-core.
 
@@ -193,9 +190,9 @@ Dalam kode C ini, penggunaan `pthread` memungkinkan eksekusi paralel di beberapa
 
 ## Input & Output
 ```
-$ ./flops64 $(nproc)
+$ ./flops32 $(nproc)
 ```
-![flops64](flops64.png)
+![flops32](img/flops32.png)
 
 Hasil benchmark ini menunjukkan bahwa CPU memiliki throughput maksimum sekitar **35.4 Gigaflops**, yang berarti mapu menangani sekitar **35.4 miliar operasi floating-point 64-bit per detik**. Performa per core mencapai **3.58 Gigaflops**, yang mengindikasikan bahwa prosesor ini menggunakan sekitar **10-12 core** selama pengujian.
 
@@ -344,7 +341,7 @@ Dalam kode ini, program menjalankan benchmark dengan menghitung operasi integer 
 ```
 $ ./iops64 $(nproc)
 ```
-![iops64](iops64.png)
+![iops64](img/iops64.png)
 
 Hasil benchmark menunjukkan operasi integer 64-bit per detik di tiap thread dengan total IOPS **30.3 Gigaops**. Throughput maksimum CPU **30.32 Gigaops**, sementara performa single core **3.65 Gigaops**, menandakan scaling multi-thread yang cukup mudah.
 
@@ -490,7 +487,7 @@ void initFLOPS64 (const int POOL) {
 ```
 $ ./flops64 $(nproc)
 ```
-![flops64](flops64.png)
+![flops64](img/flops64.png)
 
 Benchmark ini mengukur operasi floating-point **64-bit** per detik di tiap thread. Hasilnya, total FLOPS mencapai **35.4 GigaFlops**, dengan single core di **3.58 GigaFlops**. Performa antar thread bervariasi yang kemungkinan karena alokasi CPU. Sayangnya, tidak ada kontrol beban atau opsi durasi uji, jadi ada kemungkinan untuk boros sumber daya. 
 
@@ -500,14 +497,14 @@ Benchmark ini mengukur operasi floating-point **64-bit** per detik di tiap threa
 ```
 $ ./iops64 8
 ```
-![iops64try](iops648.png)
+![iops64try](img/iops648.png)
 
 Benchmark `./iops64 8` ini mengukur seberapa cepat CPU dalam menjalankan operasi integer **64-bit** per detik. Hasilnya menunjukkan bahwa CPU dapat mencapai **30,58 Gigaops** dengan kinerja single-core mencapai **4,01 Gigaops**. Setiap thread menangani sekitar **3,5 hingga 4 miliar** operasi per detik, yang menunjukkan distribusi beban kerja yang merata di antara core yang tersedia. 
 
 ```
 $ ./flops64 8
 ```
-![flops64try](flops648.pngg)
+![flops64try](img/flops648.png)
 
 Benchmark `./flops64 8` ini mengukur kinerja CPU dalam menangani operasi floating point **64-bit** per detik. Hasilnya menunjukkan throughput maksimum CPU sebesar **34,33 Gigaflops**, dengan kinerja single-core mencapai **5,52 Gigaflops**. Distribusi beban antar threadnya cukup beragam, karena beberapa thread bisa lebih dari **5 miliar operasi** per detik, sementara lainnya di kisaran **2,9 hingga 4,9 miliar**.
 
