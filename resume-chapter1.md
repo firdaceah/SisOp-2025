@@ -1,4 +1,4 @@
-# Resume Chapter 1: 1.34 - 1.40
+# Resume Chapter 1: 1.34 - 1.40 - Tugas Pertemuan 4 (11 Maret 2025)
 
 Name: Firda Rahayu
 
