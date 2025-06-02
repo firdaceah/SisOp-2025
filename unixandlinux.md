@@ -1,4 +1,4 @@
-# Boot Process
+# Boot Process - Tugas Pertemuan 3 (4 Maret 2025)
 
 Name: Firda Rahayu
 
@@ -8,4 +8,4 @@ Class: 1 TI A
 
 ## Unix and Linux Boot Process
 
-![Gambar teks editor VS Code](unixandlinux.png)
+![Gambar teks editor VS Code](img/unixandlinux.png)
