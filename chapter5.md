@@ -1,4 +1,4 @@
-# CPU Scheduling
+# CPU Scheduling - Tugas Pertemuan 11 (6 Mei 2025)
 
 Nama: Firda Rahayu
 
