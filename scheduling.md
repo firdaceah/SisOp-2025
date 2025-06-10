@@ -63,6 +63,8 @@ int main()
 ### Output :
 ![Gambar teks editor VS Code](img/output1.jpeg)
 
+![Gambar teks editor VS Code](img/g1.jpeg)
+
 ```mermaid
 gantt
     title Round Robin (Quantum = 2ms) Scheduling
@@ -74,8 +76,6 @@ gantt
     P3:4,5
     P1:5,7
     P2:7,8
-
-![Gambar teks editor VS Code](img/g1.jpeg)
 
 
 analisa : Program C ini mensimulasikan algoritma penjadwalan Shortest Job First (SJF) secara non-preemptive, dengan asumsi semua proses tiba pada waktu nol. Program dimulai dengan mendefinisikan struktur proc untuk menyimpan detail proses seperti nomor, waktu burst (bt), waktu selesai (ct), waktu penyelesaian (tat), dan waktu tunggu (wt). Fungsi read bertanggung jawab untuk mengambil input waktu burst untuk setiap proses secara interaktif. Dalam fungsi main, setelah mendapatkan jumlah total proses, program membaca waktu burst untuk setiap proses. Selanjutnya, program mengimplementasikan algoritma bubble sort untuk mengatur proses dalam urutan menaik berdasarkan waktu burst mereka. Setelah pengurutan ini, program mengulang melalui proses yang telah diurutkan untuk menghitung waktu selesai, waktu penyelesaian (yang sama dengan waktu selesai karena waktu kedatangan adalah 0), dan waktu tunggu mereka. Terakhir, program mencetak tabel yang merangkum metrik ini untuk setiap proses dan menghitung serta menampilkan rata-rata waktu penyelesaian dan rata-rata waktu tunggu untuk semua proses.
