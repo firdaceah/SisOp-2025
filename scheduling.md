@@ -65,7 +65,7 @@ int main()
 
 ```mermaid
 gantt
-    dateFormat X
+    dateFormat  X
     axisFormat %s
     section Processes
     P3:0,2
