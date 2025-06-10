@@ -65,10 +65,10 @@ int main()
 
 ![Gambar teks editor VS Code](img/g1.jpeg)
 
-```
+```mermaid
 gantt
-    dateFormat  X
-    tickInterval 1
+    dateFormat  %x
+    tickInterval 1s
     section Processes
     P1:0,2
     P2:2,4
