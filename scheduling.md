@@ -65,7 +65,7 @@ int main()
 
 ![Gambar teks editor VS Code](img/g1.jpeg)
 
-```mermaid
+```
 gantt
     dateFormat  X
     tickInterval 1
