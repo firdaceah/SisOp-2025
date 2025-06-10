@@ -159,8 +159,6 @@ int main()
 ### output :
 ![Gambar teks editor VS Code](img/output2.jpeg)
 
-![Gambar teks editor VS Code](img/g2.jpeg)
-
 ```mermaid
 gantt
     dateFormat  X
@@ -251,7 +249,7 @@ gantt
     P2:1,5
     P4:5,10
     P1:10,17
-    P3:17,26
+    P3:17,6
 ```
 
 analisa : Program C ini dengan cermat mensimulasikan algoritma penjadwalan Shortest Remaining Time First (SRTF), yang merupakan varian preemptive dari Shortest Job First, dengan secara eksplisit menggabungkan waktu kedatangan proses. Program mendefinisikan struktur proc untuk menyimpan nomor proses, waktu kedatangan, total waktu burst, sisa waktu burst, waktu selesai, waktu penyelesaian, dan waktu tunggu, menginisialisasi sisa waktu dengan waktu burst. Setelah mengumpulkan jumlah proses serta waktu kedatangan dan waktu burst masing-masing dari pengguna, proses awalnya diurutkan berdasarkan waktu kedatangan mereka. Inti dari logika SRTF diimplementasikan dalam loop berbasis waktu yang mensimulasikan eksekusi CPU. Di setiap unit waktu, program secara dinamis mengidentifikasi proses yang telah tiba dan saat ini memiliki sisa waktu burst terpendek di antara semua proses yang tersedia. Proses yang dipilih ini kemudian diizinkan untuk dieksekusi selama satu unit waktu, mengurangi sisa waktu burst-nya. Mekanisme evaluasi ulang dan pemilihan yang berkelanjutan ini secara inheren mengimplementasikan preemption, memungkinkan CPU untuk beralih ke proses yang baru tiba atau yang tersedia saat ini jika sisa waktunya lebih pendek daripada yang sedang berjalan. Ketika sebuah proses selesai dieksekusi (sisa waktunya menjadi nol), waktu penyelesaiannya dicatat, dan waktu penyelesaian serta waktu tunggunya dihitung dan diakumulasikan untuk rata-rata keseluruhan. Terakhir, program menampilkan tabel terperinci yang menunjukkan metrik ini untuk setiap proses dan menyajikan rata-rata waktu penyelesaian dan rata-rata waktu tunggu yang dihitung untuk seluruh kumpulan proses.
