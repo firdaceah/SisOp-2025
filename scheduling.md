@@ -148,6 +148,8 @@ int main()
 ### output :
 ![Gambar teks editor VS Code](img/output2.jpeg)
 
+![Gambar teks editor VS Code](img/g2.jpeg)
+
 analisa :  Program C ini mensimulasikan algoritma penjadwalan Shortest Job First (SJF) non-preemptive, secara eksplisit menggabungkan waktu kedatangan proses untuk menentukan urutan eksekusi. Program dimulai dengan mendefinisikan struktur proc untuk menyimpan detail setiap proses, termasuk nomor, waktu kedatangan (at), waktu burst (bt), waktu mulai awal (it), waktu selesai (ct), waktu penyelesaian (tat), dan waktu tunggu (wt). Setelah mengumpulkan jumlah proses serta waktu kedatangan dan waktu burst masing-masing dari pengguna, program awalnya mengurutkan semua proses berdasarkan waktu kedatangan mereka. Selanjutnya, program memastikan bahwa di antara proses yang tiba secara bersamaan pada waktu paling awal, proses dengan waktu burst terpendek dijadwalkan terlebih dahulu. Lingkaran penjadwalan utama kemudian secara iteratif memilih pekerjaan terpendek dari kumpulan proses yang telah tiba pada waktu penyelesaian proses yang dieksekusi sebelumnya. Untuk setiap proses yang dipilih, waktu eksekusi awalnya dihitung, memperhitungkan potensi waktu idle CPU jika proses tiba setelah yang sebelumnya selesai. Setelah ini, program menghitung waktu selesai, waktu penyelesaian (waktu selesai dikurangi waktu kedatangan), dan waktu tunggu (waktu penyelesaian dikurangi waktu burst) untuk setiap proses. Terakhir, program menyajikan tabel komprehensif yang merangkum metrik ini untuk semua proses dan menghitung rata-rata waktu penyelesaian keseluruhan dan rata-rata waktu tunggu, memberikan simulasi lengkap algoritma SJF non-preemptive dengan waktu kedatangan dinamis.
 
 ## 3.SRTF (preemptive) contoh kasus sesuaikan dengan PPT
