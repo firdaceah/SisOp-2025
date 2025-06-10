@@ -69,7 +69,8 @@ int main()
 gantt
     title Round Robin (Quantum = 2ms) Scheduling
     dateFormat  %x
-    axisFormat  %S
+    axisFormat  %L
+    tickInterval 1s
     section Processes
     P1:0,2
     P2:2,4
