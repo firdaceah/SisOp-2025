@@ -47,9 +47,9 @@ gantt
     dateFormat  X
     axisFormat %s
     section Processes
-    P1:0.0,8.0
-    P3:8.0,9.0
-    P2:9.0,13.0
+    P1:0,8
+    P3:8,9
+    P2:9,13
 ```
 
 Analisa :  Pada contoh kasus yang diberikan (P1: AT=0.0, BT=8.0; P2: AT=0.4, BT=4.0; P3: AT=1.0, BT=1.0), dinamika SJF non-preemptive terlihat jelas. Pada time=0.0, hanya P1 yang tersedia. Meskipun P1 memiliki burst time yang relatif panjang (8.0), ia adalah satu-satunya pilihan, sehingga P1 segera mulai dieksekusi dan akan berjalan penuh hingga time=8.0 karena sifat non-preemptive. Selama P1 berjalan, P2 (tiba di time=0.4) dan P3 (tiba di time=1.0) masuk ke ready queue. Setelah P1 selesai pada time=8.0, CPU menjadi bebas. 
