@@ -63,11 +63,9 @@ int main()
 ### Output :
 ![Gambar teks editor VS Code](img/output1.jpeg)
 
-![Gambar teks editor VS Code](img/g1.jpeg)
-
 ```mermaid
 gantt
-    dateFormat  X
+    dateFormat X
     axisFormat %s
     section Processes
     P3:0,2
