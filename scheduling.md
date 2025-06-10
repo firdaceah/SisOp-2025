@@ -63,6 +63,18 @@ int main()
 ### Output :
 ![Gambar teks editor VS Code](img/output1.jpeg)
 
+```mermaid
+gantt
+    title Round Robin (Quantum = 2ms) Scheduling
+    dateFormat  %x
+    axisFormat  %S
+    section Processes
+    P1:0,2
+    P2:2,4
+    P3:4,5
+    P1:5,7
+    P2:7,8
+
 ![Gambar teks editor VS Code](img/g1.jpeg)
 
 
